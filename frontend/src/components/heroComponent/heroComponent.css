@@ -1,0 +1,57 @@
+.heroComponent{
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    height : calc(100vh - 80px);
+    width : calc(100vw - 20px);
+
+    display : flex;
+    flex : 1;
+    gap : 40px;
+    align-items: center;
+    justify-content: space-around;
+
+    padding : 20px;
+    overflow: hidden;
+}
+
+.heroComponent .hero-left p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.heroComponent .hero-left h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+
+    margin : 10px 0;
+}
+
+.heroComponent .hero-left button{
+    background: #FF4141;
+    color : white;
+    font-size: 16px;
+
+    border : none;
+    border-radius: 25px;
+
+    padding : 5px 4px;
+    width : 200px;
+
+    display : flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor : pointer;
+    margin-top: 20px;
+}
+
+.heroComponent .hero-left button .right-icon{
+    font-size: 30px;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+
+.heroComponent .hero-right img{
+    height: 600px;
+    width: 450px;
+}

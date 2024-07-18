@@ -1,0 +1,48 @@
+.shopcategory-banner{
+    display: block;
+    width : 90vw;
+    margin : 20px auto;
+}
+
+.shopcategory-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding : 10px 40px;
+}
+
+.shop-category .shop-category-indexSort p{
+    font-size: 16px;
+}
+
+.shop-category .shop-category-indexSort p span{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.shop-category-products{
+    display : flex;
+    gap : 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin : 25px 0;
+}
+
+.shop-category .explore-more{
+    font-size: 16px;
+    font-weight: 600;
+    width : 200px;
+    padding : 12px 0;
+    background: #ededed;
+    
+    display: block;
+    margin : 0 auto;
+    margin-bottom: 40px;
+
+    border : none;
+    border-radius : 20px;
+
+    cursor: pointer;
+}

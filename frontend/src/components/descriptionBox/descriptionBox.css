@@ -1,0 +1,34 @@
+.description-box{
+    max-width: 1000px;
+    margin : 40px auto;
+    padding : 10px 20px;
+}
+
+.description-box .description-box-nav{
+    display: flex;
+    /* gap : 4px; */
+    align-items: center;
+
+    /* margin : 20px 0; */
+    font-size: 17px;
+    font-weight: 600;
+    
+    background: #FBFBFB;
+
+}
+
+.description-box .description-box-nav p{
+    
+    padding: 8px 10px;
+    border : 2px solid #D0D0D0;
+
+
+    cursor : pointer;
+}
+
+.description-box .description-box-content{
+    padding : 30px 20px;
+    text-align: justify;
+
+    border : 2px solid #D0D0D0;
+}

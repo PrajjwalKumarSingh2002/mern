@@ -1,0 +1,57 @@
+.newsletter{
+    width : fit-content;
+    height : fit-content;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 10px;
+
+    margin : 20px auto;
+    padding : 20px 30px;
+}
+
+.newsletter h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.newsletter p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.newsletter .email-box input{
+    padding : 2px 8px;
+    width : 300px;
+    height : 40px;
+
+    font-size: 18px;
+
+    border-left : 2px solid black;
+    border-radius: 10px;
+    border-right : 0;
+    border-bottom: 2px solid black;
+}
+
+.newsletter .email-box button{
+    padding : 2px 4px;
+    width : 100px;
+    height : 40px;
+    margin-left : -25px;
+
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color : white;
+    background-color: black;
+
+    border: none;
+    border-radius: 20px;
+    
+    cursor : pointer;
+}
+
+.newsletter .email-box button:active{
+    color : black;
+    background-color : rgb(124, 122, 122);
+}

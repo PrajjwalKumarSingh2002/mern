@@ -1,0 +1,35 @@
+.popular{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
+    flex-wrap: wrap;
+
+    margin : 20px auto;
+    padding : 0 20px;
+}
+
+.popular h1{
+    line-height: 30px;
+}
+
+.popular hr{
+    background-color: black;
+    width : 290px;
+    height : 6px;
+
+    border-radius: 20px;
+}
+
+.popular .popular-item{
+    display : flex;
+    gap : 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-right: 0px;
+
+    /* margin : 0 auto; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+}

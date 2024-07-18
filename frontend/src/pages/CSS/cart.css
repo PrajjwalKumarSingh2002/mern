@@ -1,0 +1,124 @@
+.cart{
+    max-width: 1000px;
+    margin : 0 auto;
+}
+
+.cart h1{
+    width: fit-content;
+    margin : 60px auto;
+}
+
+.cart div hr{    
+    background : rgb(153, 152, 152);
+    height : 3px;
+    width : 98%;
+    margin : 0 auto;
+
+    border : none;
+    border-radius: 2px;
+}
+
+.cart .cart-title{
+    max-width: 1000px;
+    display : grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap : 60px;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    margin : 15px 0;
+
+    position : sticky;
+    top : 60px;
+    background: white;
+    z-index: 8;
+}
+
+.cart .cart-title .title{
+    margin : 0 20px;
+}
+
+.cart div .cart-total{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding : 0 40px;
+}
+
+.cart div .cart-total .cart-summary .hr{
+    background : rgb(153, 152, 152);
+    height : 3px;
+    width : 100%;
+    margin : 0 auto;
+
+    border : none;
+    border-radius: 2px;
+}
+
+.cart div .cart-total .cart-sub-total, .cart-shipping-fee, .cart-total-charge{
+    display: flex;
+    gap : 100px;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 17px;
+    color : black;
+    margin : 4px 0;
+}
+
+.cart div .cart-total .promo-code p{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.cart div .cart-total .promo-code .promo-code-input{
+    margin : 10px 0;
+}
+
+.cart div .cart-total .promo-code .promo-code-input input{
+    font-size: 16px;
+    /* height : 30px; */
+    width : 200px;
+
+    padding : 8px 8px;
+
+    border : 2px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.cart div .cart-total .promo-code .promo-code-input button{
+    color : white;
+    background-color: black;
+    font-size: 16px;
+    /* height : 30px; */
+    /* width : 200px; */
+
+    padding : 9.5px 8px;
+
+    border : none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    cursor: pointer;
+}
+
+.cart div .cart-total .promo-code .promo-code-input button:active{
+    color : black;
+    background-color: white;
+
+    border : 1px solid black;
+
+    transition: 10ms;
+}
+
+/* .cart div .cart-total .cart-shipping-fee{
+    display: flex;
+}
+.cart div .cart-total .cart-total{
+    display: flex;
+} */
+

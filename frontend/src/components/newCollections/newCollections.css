@@ -1,0 +1,35 @@
+.new-collections{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 20px;
+    flex-wrap: wrap;
+
+    margin : 20px auto;
+    padding : 0 20px;
+}
+
+.new-collections h1{
+    line-height: 30px;
+}
+
+.new-collections hr{
+    background-color: black;
+    width : 290px;
+    height : 6px;
+
+    border-radius: 20px;
+}
+
+.new-collections .collections{
+    display : flex;
+    gap : 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-right: 0px;
+
+    /* margin : 0 auto; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+}
